@@ -1,0 +1,14 @@
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.exe.config
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\_installer.bat
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\_uninstaller.bat
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.exe
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.pdb
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsLibrary.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsLibrary.pdb
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\obj\Debug\ShoutawayNotificationsService.csprojResolveAssemblyReference.cache
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\obj\Debug\ShoutawayNotificationsService.Installer1.resources
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\obj\Debug\ShoutawayNotificationsService.csproj.GenerateResource.Cache
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\obj\Debug\ShoutawayNotificationsService.exe
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsService\obj\Debug\ShoutawayNotificationsService.pdb

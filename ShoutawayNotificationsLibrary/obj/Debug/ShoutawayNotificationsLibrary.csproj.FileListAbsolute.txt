@@ -1,0 +1,6 @@
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsLibrary\bin\Debug\ShoutawayNotificationsLibrary.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsLibrary\bin\Debug\ShoutawayNotificationsLibrary.pdb
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsLibrary\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsLibrary\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsLibrary\obj\Debug\ShoutawayNotificationsLibrary.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsLibrary\obj\Debug\ShoutawayNotificationsLibrary.pdb

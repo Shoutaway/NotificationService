@@ -1,0 +1,15 @@
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\ShoutawayNotificationsTest.exe.config
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\ShoutawayNotificationsTest.exe
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\ShoutawayNotificationsTest.pdb
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\ShoutawayNotificationsLibrary.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\ShoutawayNotificationsLibrary.pdb
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.csprojResolveAssemblyReference.cache
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.Properties.Resources.resources
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.csproj.GenerateResource.Cache
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.exe
+E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.pdb
+E:\Projects\Shoutaway\Old\Notification\ShoutawayNotificationsTest\bin\Debug\ShoutawayNotificationsTest.exe.config
+E:\Projects\Shoutaway\Old\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.exe
+E:\Projects\Shoutaway\Old\Notification\ShoutawayNotificationsTest\obj\Debug\ShoutawayNotificationsTest.pdb

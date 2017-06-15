@@ -1,0 +1,142 @@
+DEBUG > 2016-09-20 10:38:01.526 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:01.831 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:01.836 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:02.130 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:04.085 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: SELECT id, service, deviceid FROM notificationdevices WHERE userid=28
+DEBUG > 2016-09-20 10:38:04.369 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL count: 1
+DEBUG > 2016-09-20 10:38:04.374 - Library.sendNotifications() - E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\files\certificates\APN Shoutaway certificate.p12
+DEBUG > 2016-09-20 10:38:05.632 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: UPDATE notifications SET status=1, statusdate=GETDATE(), devicesexpected=1, devicessent=1 WHERE id='e5f1abb6-30e4-4b29-a561-99febf0d9548'
+DEBUG > 2016-09-20 10:38:05.918 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL affected rows: 1
+DEBUG > 2016-09-20 10:38:07.003 - Library.sendNotifications() - Execution time: 0 min 4 sec
+DEBUG > 2016-09-20 10:38:07.009 - Library.CheckNotifications() - Execution time: 0 min 7 sec
+DEBUG > 2016-09-20 10:38:09.026 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:09.320 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:09.323 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:09.615 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:09.618 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:11.629 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:11.923 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:11.932 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:12.224 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:12.229 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:14.243 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:14.532 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:14.538 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:14.828 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:14.836 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:16.850 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:17.141 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:17.146 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:17.436 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:17.444 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:19.463 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:19.752 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:19.758 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:20.048 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:20.054 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:22.070 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:22.360 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:22.365 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:22.653 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:22.657 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:24.672 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:24.967 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:24.975 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:25.268 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:25.277 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:27.295 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:27.585 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:38:27.588 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:38:27.877 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:38:27.886 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:38:42.943 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:38:47.581 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:39:24.034 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:39:29.485 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:40:06.122 - Library.CheckNotifications() - Execution time: 1 min 26 sec
+DEBUG > 2016-09-20 10:40:15.436 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:40:17.700 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:40:19.479 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:40:21.934 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:41:04.535 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: SELECT id, service, deviceid FROM notificationdevices WHERE userid=28
+DEBUG > 2016-09-20 10:41:11.750 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL count: 1
+DEBUG > 2016-09-20 10:41:31.131 - Library.sendNotifications() - E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\files\certificates\APN Shoutaway certificate.p12
+DEBUG > 2016-09-20 10:44:29.607 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:29.913 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:29.923 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:30.214 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:32.098 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: SELECT id, service, deviceid FROM notificationdevices WHERE userid=28
+DEBUG > 2016-09-20 10:44:32.385 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL count: 1
+DEBUG > 2016-09-20 10:44:32.390 - Library.sendNotifications() - E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\files\certificates\apns_2_dev.p12
+LOG > 2016-09-20 10:44:32.431 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - APNS error: The specified network password is not correct.
+
+DEBUG > 2016-09-20 10:44:32.434 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: UPDATE notifications SET status=1, statusdate=GETDATE(), devicesexpected=0, devicessent=0 WHERE id='e5f1abb6-30e4-4b29-a561-99febf0d9548'
+DEBUG > 2016-09-20 10:44:32.721 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL affected rows: 1
+LOG > 2016-09-20 10:44:32.746 - Library.sendNotifications() - APNS error: The specified network password is not correct.
+
+DEBUG > 2016-09-20 10:44:32.754 - Library.sendNotifications() - Execution time: 0 min 2 sec
+DEBUG > 2016-09-20 10:44:32.763 - Library.CheckNotifications() - Execution time: 0 min 5 sec
+DEBUG > 2016-09-20 10:44:34.783 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:35.740 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:35.749 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:36.041 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:44:36.045 - Library.CheckNotifications() - Execution time: 0 min 1 sec
+DEBUG > 2016-09-20 10:44:38.053 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:38.340 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:38.345 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:38.631 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:44:38.635 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:44:40.643 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:40.931 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:40.935 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:41.220 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:41.226 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: SELECT id, service, deviceid FROM notificationdevices WHERE userid=28
+DEBUG > 2016-09-20 10:44:41.523 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL count: 1
+DEBUG > 2016-09-20 10:44:41.527 - Library.sendNotifications() - E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\files\certificates\apns_2_dev.p12
+LOG > 2016-09-20 10:44:41.543 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - APNS error: The specified network password is not correct.
+
+DEBUG > 2016-09-20 10:44:41.547 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: UPDATE notifications SET status=1, statusdate=GETDATE(), devicesexpected=0, devicessent=0 WHERE id='e5f1abb6-30e4-4b29-a561-99febf0d9548'
+DEBUG > 2016-09-20 10:44:41.834 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL affected rows: 1
+LOG > 2016-09-20 10:44:41.848 - Library.sendNotifications() - APNS error: The specified network password is not correct.
+
+DEBUG > 2016-09-20 10:44:41.850 - Library.sendNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:44:41.856 - Library.CheckNotifications() - Execution time: 0 min 1 sec
+DEBUG > 2016-09-20 10:44:43.870 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:44.156 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:44.160 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:44.446 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:44:44.450 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:44:46.458 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:46.745 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:46.749 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:47.036 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:44:47.045 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:44:49.065 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:49.352 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:49.355 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:44:49.642 - Library.CheckNotifications() - SQL count: 0
+DEBUG > 2016-09-20 10:44:49.651 - Library.CheckNotifications() - Execution time: 0 min 0 sec
+DEBUG > 2016-09-20 10:44:51.671 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:44:51.959 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:44:51.964 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:45:33.175 - Library.CheckNotifications() - SQL: SELECT TOP 1 * FROM notificationsettings WHERE name='Shoutaway' ORDER BY id DESC
+DEBUG > 2016-09-20 10:45:34.155 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:45:35.446 - Library.CheckNotifications() - SQL: SELECT * FROM notifications WHERE status=0
+DEBUG > 2016-09-20 10:45:38.005 - Library.CheckNotifications() - SQL count: 1
+DEBUG > 2016-09-20 10:46:04.692 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: SELECT id, service, deviceid FROM notificationdevices WHERE userid=28
+DEBUG > 2016-09-20 10:46:06.602 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL count: 1
+DEBUG > 2016-09-20 10:47:07.292 - Library.sendNotifications() - E:\Projects\Shoutaway\Notification\ShoutawayNotificationsTest\files\certificates\apns_2_dev.p12
+LOG > 2016-09-20 10:49:23.524 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - APNS error: The specified network password is not correct.
+
+DEBUG > 2016-09-20 10:49:23.530 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL: UPDATE notifications SET status=1, statusdate=GETDATE(), devicesexpected=0, devicessent=0 WHERE id='e5f1abb6-30e4-4b29-a561-99febf0d9548'
+DEBUG > 2016-09-20 10:49:23.822 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - SQL affected rows: 1
+LOG > 2016-09-20 10:49:23.854 - Library.sendNotifications() - APNS error: The specified network password is not correct.
+
+DEBUG > 2016-09-20 10:49:23.858 - Library.sendNotifications() - Execution time: 3 min 33 sec
+DEBUG > 2016-09-20 10:49:23.864 - Library.CheckNotifications() - Execution time: 3 min 53 sec
+LOG > 2016-09-20 10:52:47.178 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - APNS error: The specified network password is not correct.
+
+LOG > 2016-09-20 10:52:47.488 - Library.sendNotifications() - APNS error: The specified network password is not correct.
+
+LOG > 2016-09-20 10:54:28.023 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - APNS error: Invalid object name 'settings'.
+LOG > 2016-09-20 10:59:58.682 - Library.sendNotifications() - Item e5f1abb6-30e4-4b29-a561-99febf0d9548 - APNS error: Invalid object name 'settings'.
