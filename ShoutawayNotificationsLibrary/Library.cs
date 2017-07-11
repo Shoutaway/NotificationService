@@ -186,8 +186,8 @@ namespace ShoutawayNotificationsLibrary
                                 {
                                     if (Convert.ToBoolean(settings["apnsenabled"]))
                                     {
-                                        // Get devices
-                                        DataRow[] devices = userDevices.Select("service='apns'");
+								// Get devices
+								DataRow[] devices = userDevices.Select("service='apns'");
 
                                         if (devices.Length > 0)
                                         {

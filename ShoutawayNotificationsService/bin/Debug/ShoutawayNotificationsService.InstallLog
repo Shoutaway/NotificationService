@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\SHOUT\NotificationService\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SHOUT\NotificationService\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.InstallLog
+   assemblypath = D:\SHOUT\NotificationService\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.exe
+Installing service ShoutawayNotificationsService...
+Service ShoutawayNotificationsService has been successfully installed.
+Creating EventLog source ShoutawayNotificationsService in log Application...
+Committing assembly 'D:\SHOUT\NotificationService\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SHOUT\NotificationService\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.InstallLog
+   assemblypath = D:\SHOUT\NotificationService\ShoutawayNotificationsService\bin\Debug\ShoutawayNotificationsService.exe

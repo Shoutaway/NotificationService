@@ -172,7 +172,7 @@ public class APNS
 
     public bool Send(APNSMessage Message, out bool CertificateExpired)
     {
-        CertificateExpired = false;
+	   CertificateExpired = false;
         string className = System.Reflection.MethodBase.GetCurrentMethod().ReflectedType.Name;
         string method = System.Reflection.MethodBase.GetCurrentMethod().Name;
         bool sent = false;
@@ -205,18 +205,19 @@ public class APNS
                 try
                 {
                     // Authenticate
-                    apnsStream.AuthenticateAsClient(PushHost, certificatesCollection, SslProtocols.Tls, true);
-                    authed = true;
+                    apnsStream.AuthenticateAsClient(PushHost, certificatesCollection, System.Security.Authentication.SslProtocols.Tls, true);
+                    authed = apnsStream.IsAuthenticated;
                 }
                 catch (AuthenticationException ex)
                 {
                     authed = false;
-                }
+				Helper.Log(className, method, "Error: " + ex.Message, false);
+			 }
 
                 if (authed)
                 {
-                    // Encode a test message into a byte array.
-                    MemoryStream memoryStream = new MemoryStream();
+				// Encode a test message into a byte array.
+				MemoryStream memoryStream = new MemoryStream();
                     BinaryWriter writer = new BinaryWriter(memoryStream);
 
                     writer.Write((byte)0);  //The command
@@ -297,12 +298,16 @@ public class APNS
                     apnsStream.Write(array);
                     apnsStream.Flush();
 
-                    // Close the client connection.
-                    client.Close();
+				// Close the client connection.
+				client.Close();
 
                     // Set sent
                     sent = true;
-                }
+			 }
+                else
+                {
+				Helper.Log(className, method, "Not authorized " + Message.DeviceToken, false);
+			 }
             }
         }
         catch (Exception ex)
@@ -322,7 +327,7 @@ public class APNS
                 client.Close();
         }
 
-        return sent;
+	   return sent;
     }
     #endregion
 
@@ -393,19 +398,20 @@ public class APNS
 
     private bool validateServerCertificate(object Sender, X509Certificate Certificate, X509Chain Chain, SslPolicyErrors SslPolicyErrors)
     {
-        if (SslPolicyErrors == SslPolicyErrors.RemoteCertificateChainErrors)
-        {
-            return false;
-        }
-        else if (SslPolicyErrors == SslPolicyErrors.RemoteCertificateNameMismatch)
-        {
-            Zone z = Zone.CreateFromUrl(((HttpWebRequest)Sender).RequestUri.ToString());
-            if (z.SecurityZone == System.Security.SecurityZone.Intranet || z.SecurityZone == System.Security.SecurityZone.MyComputer)
-                return true;
-            return false;
-        }
+	   if (SslPolicyErrors == SslPolicyErrors.RemoteCertificateChainErrors)
+	   {
+		  return true;
+	   }
+	   else if (SslPolicyErrors == SslPolicyErrors.RemoteCertificateNameMismatch)
+	   {
+		  Zone z = Zone.CreateFromUrl(((HttpWebRequest)Sender).RequestUri.ToString());
+		  if (z.SecurityZone == System.Security.SecurityZone.Intranet || z.SecurityZone == System.Security.SecurityZone.MyComputer)
+			 return true;
+		  Helper.Log("APNS", "validateServerCertificate", "Error: " + SslPolicyErrors.ToString(), false);
+		  return false;
+	   }
 
-        return true;
+	   return true;
     }
     #endregion
 }
